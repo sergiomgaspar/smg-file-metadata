@@ -1,0 +1,25 @@
+{
+  "name": "@sergiomgaspar/sandbox",
+  "version": "1.0.2",
+  "description": "FCC Image Search API",
+  "main": "file-metadata.js",
+  "scripts": {
+    "start": "node file-metadata.js",
+    "test": "node file-metadata.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomgaspar/smg-file-metadata.git"
+  },
+  "author": "sergiomgaspar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiomgaspar/smg-file-metadata/issues"
+  },
+  "homepage": "https://github.com/sergiomgaspar/smg-file-metadata#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "1.2.0"
+  }
+}

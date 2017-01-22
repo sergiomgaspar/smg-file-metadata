@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>SMG - File Metadata Microservice</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1 class="header">
+            File Metadata Microservice for FreeCodeCamp
+         </h1>
+         <blockquote>
+            User stories:
+            <ul>1) I can submit a FormData object that includes a file upload.
+            </ul>
+            <ul>2) When I submit something, I will receive the file size in bytes within the JSON response.</ul>
+         </blockquote>
+         <br>
+         <h3>Tu use the API import a file with the button below and click "submit"</h3>
+          <h3>The output will be sent in JSON format</h3>
+         <br>
+      </div>
+      <br><br>
+	  
+	<form action="/get-file-size" method="post" enctype="multipart/form-data">
+		<input type="file" name="file">
+		<input type="submit">
+	</form>
+	<br><br>
+       
+   </body>
+   <footer class="footer">
+      <script src="https://use.fontawesome.com/c51cc08ec6.js"></script>
+      <div class="container-fluid text-center">
+         <div class="footer-text text-muted row">
+            Created by Sérgio Gaspar for freeCodeCamp Challenge:
+            <a href="https://www.freecodecamp.com/challenges/file-metadata-microservice" target="_blank">File Metadata Microservice</a>.
+         </div>
+         <div class="social-icons">
+            <h2><a href="https://github.com/sergiomgaspar" target="_blank"  ><i id="github" class="fa fa-github" aria-hidden="true"></i></a>
+               <a href="http://codepen.io/sergiomgaspar/" target="_blank"><i id="codepen" class="fa fa-codepen" aria-hidden="true"></i></a>
+               <a href="https://www.freecodecamp.com/sergiomgaspar" target="_blank"><i id="freecodecamp" class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+               <a href="https://www.linkedin.com/in/sergiomgaspar" target="_blank"><i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+               <a href="https://twitter.com/sergiomgaspar" target="_blank"><i id="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+            </h2>
+         </div>
+      </div>
+   </footer>
+</html>
